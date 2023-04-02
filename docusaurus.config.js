@@ -200,8 +200,6 @@ const config = {
       ar: {
         label: 'العربية (مصر)',
         direction: 'rtl',
-        htmlLang: 'ar-EG',
-        calendar: 'arabic',
         path: 'ar',
       },
     },
