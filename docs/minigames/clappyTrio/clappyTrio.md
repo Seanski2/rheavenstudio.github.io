@@ -12,7 +12,7 @@ The Clappy Trio is a **Cue-Based** game.
 |Name|Description|Length (beats)|
 |---|---|---|
 |`Clap`|Lion 1 claps. At the end of the cue, Lion 2 claps. Once it has been <br></br> the same number of beats, the next lion will clap.<br></br> This continues until all lions have clapped.|Resizable|
-|`Bop`|The entire trio bops once. If it comes after a successful `clap`, the <br></br>lions will smile happily.|Resizable|
+|`Bop`|The trio bops to the beat for the length of the cue. If it comes after a successful `clap`, the <br></br>lions will smile happily.|Resizable|
 |`Prepare Stance`|The lions take a prepared stance. They will stay prepared<br></br> until a `clap` or `bop` occurs|1|
 |`Change Lion Count`|Immidiately changes the current number of lions|0.5|
 
