@@ -27,44 +27,89 @@ Karate Man is a **Cue-Based** game.
 
 ### Properties
 
-|Cue|Variable|Options|Description|
-|---|---|---|---|
-|`Bop`|Bop|Toggle|When checked, makes Karate Joe bop for the duration of the cue.|
-|`Bop`|Bop (Auto)|Toggle|When checked, makes Karate Joe bop every subsequent beat.|
-|`Toss Object`|Object|Pot, Lightbulb, Rock, Ball, CookingPot,<br></br> Alien, Bomb, TacoBell|Sets the item to be thrown.|
-|`Toss Object`|Success Expression|Normal, Smirk, Surprise, Sad, Lenny, Happy, VerySad, Blush|Sets Joe's facial expression after successfully hitting the object.|
-|`Toss Lightbulb`|Type|Normal, Yellow, Blue, Custom|Changes the color of the incoming lightbulb.|
-|`Toss Lightbulb`|Custom Color|Color Picker|When Custom Color is selected, allows the user to specify the exact color of the incoming lightbulb.|
-|`Toss Lightbulb`|Success Expression|Normal, Smirk, Surprise, Sad, Lenny, Happy, VerySad, Blush|Sets Joe's facial expression after successfully hitting the lightbulb.|
-|`Special: Kick`|Contains Ball|Toggle|When checked, replaces the bomb with a soccer ball.|
-|`Special: Kick`|Success Expression|Normal, Smirk, Surprise, Sad, Lenny, Happy, VerySad, Blush|Sets Joe's facial expression after successfully kicking the bomb.|
-|`Special: Combo`|Success Expression|Normal, Smirk, Surprise, Sad, Lenny, Happy, VerySad, Blush|Sets Joe's facial expression after successfully comboing the objects.|
-|`Warnings`|Type|HitTwo, HitThree, HitThreeAlt, <br></br>HitFour, Grr, Warning, Combo, HitOne|Specifies the warning to be displayed. Some have audio cues.|
-|`Special Camera`|Return Camera|Toggle|When checked, makes the camera return to its original position after the zoomout.
-|`Gameplay Modifiers`|Flow Bar type|None, Tengoku, Mania|Disables or enables the Flow Bar system in either of its variants.|
-|`Gameplay Modifiers`|Enable Combos|Toggle|When checked, allows Joe to perform combos.|
-|`Background Appearance`|Background Type|Yellow, Fuchsia, Blue, Red, <br></br>Orange, Pink, Custom|Changes the backround color to<br></br> a preset option. Also gives you the option to create your own.|
-|`Background Appearance`|Shadow Type|Tinted, Custom|Changes the shadow to either derive its color from the background or use a custom color.|
-|`Background Appearance`|Custom Background Color|Color Picker|When Custom is selected for Background Type, allows the user to select a custom color.|
-|`Background Appearance`|Custom Shadow Color|Color Picker|When Custom is selected for Shadow Type, allows the user to select a custom color.|
-|`Background Appearance`|FX Type|None, Sunburst, Rings, Fade|Sets the background effect type. Fade will fade the cue's color over the cue's duration.|
-|`Background Appearance`|Texture|Plain, Gradient, Radial, Blood|Sets the background texture type.|
-|`Background Appearance`|Color Filter Type|Tinted, Custom|Changes the background's texture to either derive its color from the background or use a custom color.|
-|`Background Appearance`|Custom Filter Color|Color Picker|When Custom is selected for Color Filter Type, allows the user to select a custom color.|
-|`Background Appearance`|Custom Filter Color|Color Picker|When Fade is selected for FX Type, allows the user to select a custom color to fade the filter into.|
-|`Object Colors`|Joe Body Color|Color Picker|Allows the user to choose the color of Joe's body.|
-|`Object Colors`|Joe Highlight Color|Color Picker|Allows the user to choose the color of Joe's highlights.|
-|`Object Colors`|Item Color|Color Picker|Allows the user to choose the color of the thrown objects.|
-|`Particle Effects`|Particle Type|None, Snow, Fire, Rain|Sets the background particle type.|
-|`Particle Effects`|Wind Strength|0-64|Sets the wind's intensity, affecting the movement of the particles.|
-|`Particle Effects`|Particle Intensity|1-16|Sets the volume of particles that appear.|
-|`Set Facial Expression`|Facial Expression|Normal, Smirk, Surprise, Sad, Lenny, Happy, VerySad, Blush|Sets Joe's facial expression instantly.|
+#### Bop
+|Variable|Options|Description|
+|---|---|---|
+|`Bop`|Toggle|When checked, makes Karate Joe bop for the duration of the cue.|
+|`Bop (Auto)`|Toggle|When checked, makes Karate Joe bop every subsequent beat.|
 
-### Flow Bar
+#### Toss Object
+|Variable|Options|Description|
+|---|---|---|
+|`Object`|Pot, Lightbulb, Rock, Ball, CookingPot,<br></br> Alien, Bomb, TacoBell|Sets the item to be thrown.|
+|`Success Expression`|Normal, Smirk, Surprise, Sad, Lenny, Happy, VerySad, Blush|Sets Joe's facial expression after successfully hitting the object.|
+
+#### Toss Lightbulb
+|Variable|Options|Description|
+|---|---|---|
+|`Type`|Normal, Yellow, Blue, Custom|Changes the color of the incoming lightbulb.|
+|`Custom Color`|Color Picker|When Custom Color is selected, allows the user to specify the exact color of the incoming lightbulb.|
+|`Success Expression`|Normal, Smirk, Surprise, Sad, Lenny, Happy, VerySad, Blush|Sets Joe's facial expression after successfully hitting the lightbulb.|
+
+#### Special: Kick
+|Variable|Options|Description|
+|---|---|---|
+|`Contains Ball`|Toggle|When checked, replaces the bomb with a soccer ball.|
+|`Success Expression`|Normal, Smirk, Surprise, Sad, Lenny, Happy, VerySad, Blush|Sets Joe's facial expression after successfully kicking the bomb.|
+
+#### Special: Combo
+|Variable|Options|Description|
+|---|---|---|
+|`Success Expression`|Normal, Smirk, Surprise, Sad, Lenny, Happy, VerySad, Blush|Sets Joe's facial expression after successfully comboing the objects.|
+
+#### Warnings
+|Variable|Options|Description|
+|---|---|---|
+|`Type`|HitTwo, HitThree, HitThreeAlt, <br></br>HitFour, Grr, Warning, Combo, HitOne|Specifies the warning to be displayed. Some have audio cues.|
+
+#### Special Camera
+|Variable|Options|Description|
+|---|---|---|
+|`Return Camera`|Toggle|When checked, makes the camera return to its original position after the zoomout.
+
+#### Gameplay Modifiers
+|Variable|Options|Description|
+|---|---|---|
+|`Flow Bar type`|None, Tengoku, Mania|Disables or enables the Flow Bar system in either of its variants.|
+|`Enable Combos`|Toggle|When checked, allows Joe to perform combos.|
+
+#### Background Appearance
+|Variable|Options|Description|
+|---|---|---|
+|`Background Type`|Yellow, Fuchsia, Blue, Red, <br></br>Orange, Pink, Custom|Changes the backround color to<br></br> a preset option. Also gives you the option to create your own.|
+|`Shadow Type`|Tinted, Custom|Changes the shadow to either derive its color from the background or use a custom color.|
+|`Custom Background Color`|Color Picker|When Custom is selected for Background Type, allows the user to select a custom color.|
+|`Custom Shadow Color`|Color Picker|When Custom is selected for Shadow Type, allows the user to select a custom color.|
+|`FX Type`|None, Sunburst, Rings, Fade|Sets the background effect type. Fade will fade the cue's color over the cue's duration.|
+|`Texture`|Plain, Gradient, Radial, Blood|Sets the background texture type.|
+|`Color Filter Type`|Tinted, Custom|Changes the background's texture to either derive its color from the background or use a custom color.|
+|`Custom Filter Color`|Color Picker|When Custom is selected for Color Filter Type, allows the user to select a custom color.|
+|`Custom Filter Color`|Color Picker|When Fade is selected for FX Type, allows the user to select a custom color to fade the filter into.|
+
+#### Object Colors
+|Variable|Options|Description|
+|---|---|---|
+|`Joe Body Color`|Color Picker|Allows the user to choose the color of Joe's body.|
+|`Joe Highlight Color`|Color Picker|Allows the user to choose the color of Joe's highlights.|
+|`Item Color`|Color Picker|Allows the user to choose the color of the thrown objects.|
+
+#### Particle Effects
+|Variable|Options|Description|
+|---|---|---|
+|`Particle Type`|None, Snow, Fire, Rain|Sets the background particle type.|
+|`Wind Strength`|0-64|Sets the wind's intensity, affecting the movement of the particles.|
+|`Particle Intensity`|1-16|Sets the volume of particles that appear.|
+
+#### Set Facial Expression
+|Variable|Options|Description|
+|---|---|---|
+|`Facial Expression`|Normal, Smirk, Surprise, Sad, Lenny, Happy, VerySad, Blush|Sets Joe's facial expression instantly.|
+
+## Flow Bar
 The flow bar is a Karate Man gameplay modifier that changes how the game is played. Meter is gained by hitting objects, and meter is lost by missing. High flow is required to hit certain object types (rock, cooking pot, alien, bomb, and taco bell). There are two Flow Bar modes: Tengoku and Mania.
-#### Tengoku
+### Tengoku
 The Tengoku flow bar measures five points. The bar increases by one for every successful hit. Inputting too early or too late, as well as hitting a hard object while at low flow, will drop the bar by one point; completely missing will deplete the bar completely. Hitting hard objects requires three points or higher.
-#### Mania
+### Mania
 The Tengoku flow bar measures ten points. The bar increases by a number based on the total amount of inputs in the Karate Man segment; a more input-dense segment will grant less points per hit, while a less dense segment will grant more per hit. Inputting too early or too late, as well as hitting a hard object while at low flow, will drop the bar by a variable amount; completely missing will deplete the bar completely. Hitting hard objects requires seven points or higher.
 
 ### Known Bugs and Issues

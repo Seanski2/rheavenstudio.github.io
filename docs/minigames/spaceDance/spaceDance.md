@@ -23,23 +23,52 @@ Space Dance is a **Cue-Based** game.
 
 ### Properties
 
-|Cue|Variable|Options|Description|
-|---|---|---|---|
-|`Turn Right`|Who Speaks?|Dancers, Gramps, Both|Determines who speaks during the cue.|
-|`Turn Right`|Space Gramps Animations|Toggle|When checked, makes Space Gramps join in <br></br>performing the cue.|
-|`Sit Down`|Who Speaks?|Dancers, Gramps, Both|Determines who speaks during the cue.|
-|`Sit Down`|Space Gramps Animations|Toggle|When checked, makes Space Gramps join in <br></br>performing the cue.|
-|`Punch`|Who Speaks?|Dancers, Gramps, Both|Determines who speaks during the cue.|
-|`Punch`|Space Gramps Animations|Toggle|When checked, makes Space Gramps join in <br></br>performing the cue.|
-|`Shooting Star`|Ease|Linear, Instant, Spring,<br></br> *variations of* Quad, Cubic, Quart,<br></br> Quint, Sine, Expo, Circ, Bounce,<br></br> Back, Elastic|Sets the easing of the star's movement.|
-|`Change Background Color`|Start Color|Color Picker|Sets the color of the background at the start of the cue.|
-|`Change Background Color`|End Color|Color Picker|Sets the color of the background to fade into.|
-|`Change Background Color`|Instant|Toggle|When checked, instantly sets the color of the  <br></br>background to whatever is set for Start Color.|
-|`Single Bop`|Gramps Bop|Toggle|When checked, Space Gramps will bop alongside the dancers once.|
-|`Bop Toggle`|Should Bop?|Toggle|When checked, the dancers will bop every subsequent beat.|
-|`Bop Toggle`|Gramps Bop|Toggle|When checked, Space Gramps will bop every subsequent beat.|
-|`Space Gramps Animation`|Looping|Toggle|When checked, Space Gramps will loop the selected animation.|
-|`Space Gramps Animation`|Which animation?|Stand, Talk, Sniff|Sets the animation to play.|
+#### Turn Right
+|Variable|Options|Description|
+|---|---|---|
+|`Who Speaks?`|Dancers, Gramps, Both|Determines who speaks during the cue.|
+|`Space Gramps Animations`|Toggle|When checked, makes Space Gramps join in <br></br>performing the cue.|
+
+#### Sit Down
+|Variable|Options|Description|
+|---|---|---|
+|`Who Speaks?`|Dancers, Gramps, Both|Determines who speaks during the cue.|
+|`Space Gramps Animations`|Toggle|When checked, makes Space Gramps join in <br></br>performing the cue.|
+
+#### Punch
+|Variable|Options|Description|
+|---|---|---|
+|`Who Speaks?`|Dancers, Gramps, Both|Determines who speaks during the cue.|
+|`Space Gramps Animations`|Toggle|When checked, makes Space Gramps join in <br></br>performing the cue.|
+
+#### Shooting Star
+|Variable|Options|Description|
+|---|---|---|
+|`Ease`|Linear, Instant, Spring,<br></br> *variations of* Quad, Cubic, Quart,<br></br> Quint, Sine, Expo, Circ, Bounce,<br></br> Back, Elastic|Sets the easing of the star's movement.|
+
+#### Change Background Color
+|Variable|Options|Description|
+|---|---|---|
+|`Start Color`|Color Picker|Sets the color of the background at the start of the cue.|
+|`End Color`|Color Picker|Sets the color of the background to fade into.|
+|`Instant`|Toggle|When checked, instantly sets the color of the  <br></br>background to whatever is set for Start Color.|
+
+#### Single Bop
+|Variable|Options|Description|
+|---|---|---|
+|`Gramps Bop`|Toggle|When checked, Space Gramps will bop alongside the dancers once.|
+
+#### Bop Toggle
+|Variable|Options|Description|
+|---|---|---|
+|`Should Bop?`|Toggle|When checked, the dancers will bop every subsequent beat.|
+|`Gramps Bop`|Toggle|When checked, Space Gramps will bop every subsequent beat.|
+
+#### Space Gramps Animation
+|Variable|Options|Description|
+|---|---|---|
+|`Looping`|Toggle|When checked, Space Gramps will loop the selected animation.|
+|`Which animation?`|Stand, Talk, Sniff|Sets the animation to play.|
 
 
 ### Known Bugs and Issues

@@ -23,17 +23,30 @@ Rhythm Tweezers is a **Call & Response** game.
 
 ### Properties
 
-|Cue|Variable|Options|Description|
-|---|---|---|---|
-|`Swap Vegetables`|Type|Onion, Potato|Sets the type of vegetable to swap to.|
-|`Swap Vegetables`|Onion Color|Color Picker|If the vegetable being swapped to is an onion, <br></br>sets the color of the onion to the user's choice.|
-|`Swap Vegetables`|Potato Color|Color Picker|If the vegetable being swapped to is a potato, <br></br>sets the color of the potato to the user's choice.|
-|`Change Vegetable (Instant)`|Type|Onion, Potato|Sets the type of vegetable to swap to.|
-|`Change Vegetable (Instant)`|Onion Color|Color Picker|If the vegetable being swapped to is an onion, <br></br>sets the color of the onion to the user's choice.|
-|`Change Vegetable (Instant)`|Potato Color|Color Picker|If the vegetable being swapped to is a potato, <br></br>sets the color of the potato to the user's choice.|
-|`Background Color`|Background Color|Color Picker|Sets the background color to the user's choice.|
-|`Background Fade`|Start Color|Color Picker|Sets the background color at the start of the cue to the user's choice.|
-|`Background Fade`|End Color|Color Picker|Sets the background color to fade into to the user's choice.|
+#### Swap Vegetables
+|Variable|Options|Description|
+|---|---|---|
+|`Type`|Onion, Potato|Sets the type of vegetable to swap to.|
+|`Onion Color`|Color Picker|If the vegetable being swapped to is an onion, <br></br>sets the color of the onion to the user's choice.|
+|`Potato Color`|Color Picker|If the vegetable being swapped to is a potato, <br></br>sets the color of the potato to the user's choice.|
+
+#### Change Vegetable (Instant)
+|Variable|Options|Description|
+|---|---|---|
+|`Type`|Onion, Potato|Sets the type of vegetable to swap to.|
+|`Onion Color`|Color Picker|If the vegetable being swapped to is an onion, <br></br>sets the color of the onion to the user's choice.|
+|`Potato Color`|Color Picker|If the vegetable being swapped to is a potato, <br></br>sets the color of the potato to the user's choice.|
+
+#### Background Color
+|Variable|Options|Description|
+|---|---|---|
+|`Background Color`|Color Picker|Sets the background color to the user's choice.|
+
+#### Background Fade
+|Variable|Options|Description|
+|---|---|---|
+|`Start Color`|Color Picker|Sets the background color at the start of the cue to the user's choice.|
+|`End Color`|Color Picker|Sets the background color to fade into to the user's choice.|
 
 ### Known Bugs and Issues
 - Inputs are currently very play-mode hostile; for instance, you can pluck two hairs at once.

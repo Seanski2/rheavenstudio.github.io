@@ -23,14 +23,23 @@ Tap Trial is a **Cue-Based** game.
 
 ### Properties
 
-|Cue|Variable|Options|Description|
-|---|---|---|---|
-|`Bop`|Bop|Toggle|When checked, makes the girl and the monkeys bop for the duration of the cue.|
-|`Bop`|Bop (Auto)|Toggle|When checked, makes the girl and the monkeys bop every subsequent beat.|
-|`Scroll Background`|Scroll FX|Toggle|When checked, scrolls the background upwards.|
-|`Scroll Background`|Flash FX|Toggle|When checked, brightens the background.|
-|`Giraffe Animations`|Enter?|Toggle|When checked, the giraffe will enter the frame.|
-|`Giraffe Animations`|Instant|Toggle|When checked, the giraffe will move in or out instantly.|
+#### Bop
+|Variable|Options|Description|
+|---|---|---|
+|`Bop`|Toggle|When checked, makes the girl and the monkeys bop for the duration of the cue.|
+|`Bop (Auto)`|Toggle|When checked, makes the girl and the monkeys bop every subsequent beat.|
+
+#### Scroll Background
+|Variable|Options|Description|
+|---|---|---|
+|`Scroll FX`|Toggle|When checked, scrolls the background upwards.|
+|`Flash FX`|Toggle|When checked, brightens the background.|
+
+#### Giraffe Animations
+|Variable|Options|Description|
+|---|---|---|
+|`Enter?`|Toggle|When checked, the giraffe will enter the frame.|
+|`Instant`|Toggle|When checked, the giraffe will move in or out instantly.|
 
 
 ### Known Bugs and Issues

@@ -5,7 +5,7 @@ sidebar_position: 1000
 
 *This is a template.* - Heaven Studio
 
-Template is an **awesome** game.
+Template is a **cool** game.
 
 ### Cues
 
@@ -16,10 +16,11 @@ Template is an **awesome** game.
 
 ### Properties
 
-|Cue|Variable|Options|Description|
-|---|---|---|---|
-|`Bop`|Bop|Toggle|When checked, makes X bop for the duration of the cue.|
-|`Bop`|Bop (Auto)|Toggle|When checked, makes X bop every subsequent beat.|
+#### Bop
+|Variable|Options|Description|
+|---|---|---|
+|`Bop`|Toggle|When checked, makes X bop for the duration of the cue.|
+|`Bop (Auto)`|Toggle|When checked, makes X bop every subsequent beat.|
 
 
 ### Known Bugs and Issues

@@ -20,12 +20,17 @@ Marching Orders is a **Keep-the-Beat** game.
 
 ### Properties
 
-|Cue|Variable|Options|Description|
-|---|---|---|---|
-|`Bop`|Bop|Toggle|When checked, makes the squadmates bop for the duration of the cue.|
-|`Bop`|Bop (Auto)|Toggle|When checked, makes the squadmates bop every subsequent beat.|
-|`Direction to Turn`|Direction|Right, Left|Sets the direction Sarge will tell the squadmates to turn to.|
-|`Direction to Turn`|Length|Normal, Fast|Sets the speed at which Sarge will say his voiceline. When set to fast, <br></br>the squadmates will have to turn their face a beat earlier.|
+#### Bop
+|Variable|Options|Description|
+|---|---|---|
+|`Bop`|Toggle|When checked, makes the squadmates bop for the duration of the cue.|
+|`Bop (Auto)`|Toggle|When checked, makes the squadmates bop every subsequent beat.|
+
+#### Direction to Turn
+|Variable|Options|Description|
+|---|---|---|
+|`Direction`|Right, Left|Sets the direction Sarge will tell the squadmates to turn to.|
+|`Length`|Normal, Fast|Sets the speed at which Sarge will say his voiceline. When set to fast, <br></br>the squadmates will have to turn their face a beat earlier.|
 
 ### Known Bugs and Issues
-- The gray parts of the background are currently black.
+- None currently known.

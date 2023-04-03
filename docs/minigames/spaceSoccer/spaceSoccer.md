@@ -18,12 +18,25 @@ Space Soccer is a **Keep-the-Beat** game.
 
 ### Properties
 
-|Cue|Variable|Options|Description|
-|---|---|---|---|
-|`Ball Dispense`|Disable Sound|Toggle|When checked, removes the ball dispense sound.|
-|`High Kick-Toe!`|Swing|0-1|Adjusts the timing of "toe!" to work with swing tempo.|
-|`NPC Kickers Enter or Exit`|Should Exit?|Toggle|When checked, lowers the kickers instead of raising them.|
-|`NPC Kickers Instant Enter or Exit`|Should Exit?|Toggle|When checked, lowers the kickers instead of raising them.|
+#### Ball Dispense
+|Variable|Options|Description|
+|---|---|---|
+|`Disable Sound`|Toggle|When checked, removes the ball dispense sound.|
+
+#### High Kick-Toe!
+|Variable|Options|Description|
+|---|---|---|
+|`Swing`|0-1|Adjusts the timing of "toe!" to work with swing tempo.|
+
+#### NPC Kickers Enter or Exit
+|Variable|Options|Description|
+|---|---|---|
+|`Should Exit?`|Toggle|When checked, lowers the kickers instead of raising them.|
+
+#### NPC Kickers Instant Enter or Exit
+|Variable|Options|Description|
+|---|---|---|
+|`Should Exit?`|Toggle|When checked, lowers the kickers instead of raising them.|
 
 ### Known Bugs and Issues
 - `High Kick-Toe!`'s swing modifier does not currently work.

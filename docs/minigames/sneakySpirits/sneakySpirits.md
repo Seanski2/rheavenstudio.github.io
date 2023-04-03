@@ -17,12 +17,17 @@ Sneaky Spirits is a **Cue-Based** game.
 
 ### Properties
 
-|Cue|Variable|Options|Description|
-|---|---|---|---|
-|`Ghost`|Slowdown Effect|Toggle|When checked, adds a slowdown effect when the ghost is hit.|
-|`Ghost`|Move Volume #|0-100|Determines the volume and vertical movement of the ghost at position #.|
-|`Bow Enter or Exit`|Enter?|Toggle|When checked, makes the bow move into frame. When unchecked, makes the bow leave the frame.|
-|`Bow Enter or Exit`|Ease|Linear, Instant, Spring,<br></br> *variations of* Quad, Cubic, Quart,<br></br> Quint, Sine, Expo, Circ, Bounce,<br></br> Back, Elastic|Sets the easing of the bow's movement.|
+#### Ghost
+|Variable|Options|Description|
+|---|---|---|
+|`Slowdown Effect`|Toggle|When checked, adds a slowdown effect when the ghost is hit.|
+|`Move Volume #`|0-100|Determines the volume and vertical movement of the ghost at position #.|
+
+#### Bow Enter or Exit
+|Variable|Options|Description|
+|---|---|---|
+|`Enter?`|Toggle|When checked, makes the bow move into frame. When unchecked, makes the bow leave the frame.|
+|`Ease`|Linear, Instant, Spring,<br></br> *variations of* Quad, Cubic, Quart,<br></br> Quint, Sine, Expo, Circ, Bounce,<br></br> Back, Elastic|Sets the easing of the bow's movement.|
 
 
 ### Known Bugs and Issues
