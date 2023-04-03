@@ -1,0 +1,34 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.item.label.Editor": {
+    "message": "Editor",
+    "description": "The label of footer link with label=Editor linking to /docs/intro"
+  },
+  "link.item.label.Tips": {
+    "message": "Tips",
+    "description": "The label of footer link with label=Tips linking to /docs-tips/intro"
+  },
+  "link.item.label.Contributing": {
+    "message": "Contributing",
+    "description": "The label of footer link with label=Contributing linking to /docs-contributing/intro"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/2kdZ8kFyEN"
+  },
+  "link.item.label.YouTube": {
+    "message": "YouTube",
+    "description": "The label of footer link with label=YouTube linking to https://www.youtube.com/channel/UCAb3R-5qyXWOEj8B4vibhxQ"
+  },
+  "copyright": {
+    "message": "NoCopyright Heaven Studio Team 2021-2023",
+    "description": "The footer copyright"
+  }
+}

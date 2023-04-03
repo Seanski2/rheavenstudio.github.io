@@ -1,0 +1,70 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Setting up the project": {
+    "message": "Setting up the project",
+    "description": "The label for category Setting up the project in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Installing Git": {
+    "message": "Installing Git",
+    "description": "The label for category Installing Git in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Windows": {
+    "message": "Windows",
+    "description": "The label for category Windows in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.GitHub Desktop": {
+    "message": "GitHub Desktop",
+    "description": "The label for category GitHub Desktop in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Git": {
+    "message": "Git",
+    "description": "The label for category Git in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.MacOS": {
+    "message": "MacOS",
+    "description": "The label for category MacOS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Linux": {
+    "message": "Linux",
+    "description": "The label for category Linux in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Installing Unity": {
+    "message": "Installing Unity",
+    "description": "The label for category Installing Unity in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Opening the project in Unity": {
+    "message": "Opening the project in Unity",
+    "description": "The label for category Opening the project in Unity in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Guidelines": {
+    "message": "Guidelines",
+    "description": "The label for category Guidelines in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.API": {
+    "message": "API",
+    "description": "The label for category API in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Core": {
+    "message": "Core",
+    "description": "The label for category Core in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Main": {
+    "message": "Main",
+    "description": "The label for category Main in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Utilities": {
+    "message": "Utilities",
+    "description": "The label for category Utilities in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.animationhelpers": {
+    "message": "animationhelpers",
+    "description": "The label for category animationhelpers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.EasingFunction": {
+    "message": "EasingFunction",
+    "description": "The label for category EasingFunction in sidebar tutorialSidebar"
+  }
+}

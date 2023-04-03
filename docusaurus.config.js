@@ -187,20 +187,38 @@ const config = {
     }),
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ar'],
+    locales: ['en', 'ar', 'jp', 'es', 'pt', 'fr', 'da'],
     path: 'i18n',
     localeConfigs: {
       en: {
         label: 'English',
-        direction: 'ltr',
-        htmlLang: 'en-US',
-        calendar: 'gregory',
         path: 'en',
       },
       ar: {
         label: 'العربية (مصر)',
         direction: 'rtl',
         path: 'ar',
+      },
+      jp: {
+        label: '日本語',
+        path: 'jp',
+      },
+      es: {
+        label: 'Español',
+        path: 'es',
+      },
+      pt: {
+        label: 'Português (Brasil)',
+        htmlLang: 'pt-BR',
+        path: 'pt-BR',
+      },
+      fr: {
+        label: 'Français',
+        path: 'fr',
+      },
+      da: {
+        label: 'Dansk',
+        path: 'da',
       },
     },
   },

@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Heaven Studio",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "My Site Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Editor": {
+    "message": "محرر",
+    "description": "Navbar item with label Editor"
+  },
+  "item.label.Tips": {
+    "message": "نصائح",
+    "description": "Navbar item with label Tips"
+  },
+  "item.label.Contributing": {
+    "message": "مساهمة",
+    "description": "Navbar item with label Contributing"
+  }
+}

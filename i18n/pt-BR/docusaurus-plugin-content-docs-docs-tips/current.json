@@ -1,0 +1,10 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Music related tips": {
+    "message": "Music related tips",
+    "description": "The label for category Music related tips in sidebar tutorialSidebar"
+  }
+}
