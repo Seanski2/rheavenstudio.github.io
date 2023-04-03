@@ -2,12 +2,12 @@
 sidebar_position: 2
 ---
 
-# Setting up Heaven Studio
+# Hvordan man sætter Heaven Studio op
 
-Heaven Studio is currently in a beta state, and we do not have any public releases as of right now. We currently have nightly builds that you can grab from our GitHub Actions, but support is not guaranteed. Please select your operating system accordingly:
+Heaven Studio er i øjeblikket i beta tilstand, og vi har ikke nogle offentlige udgivelses lige nu. Vi har i øjeblikket beta-builds som du kan få fra vores GitHub Actions, men support er ikke garanteret. Vælg venligst et link ud fra dit opereringssystem:
 
 - [Windows](https://nightly.link/RHeavenStudio/HeavenStudio/workflows/windows/master/StandaloneWindows64-build.zip)
 - [MacOS](https://nightly.link/RHeavenStudio/HeavenStudio/workflows/macos/master/StandaloneOSX-build.zip)
 - [Linux](https://nightly.link/RHeavenStudio/HeavenStudio/workflows/linux/master/StandaloneLinux64-build.zip)
 
-**Non-Windows users please note that the nightly builds have an issue with rendering some minigames (such as Karate Man) on non-Windows operating systems, please build the level editor by yourself by following this guide right [here](../docs-contributing/setup/introduction).**
+**Hvis du ikke bruger Windows, vær venligst opmærksom på at beta-buildsene har et problem med at vise nogle spil ordentligt (som Karateka) på andre opereringssystemer end Windows, byg venligst niveau editoren selv ved at følge denne guide lige [her](../docs-contributing/setup/introduction).**

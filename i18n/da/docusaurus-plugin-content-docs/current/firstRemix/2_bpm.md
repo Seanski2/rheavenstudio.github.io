@@ -4,12 +4,12 @@ sidebar_position: 2
 
 import ReactPlayer from 'react-player'
 
-# Setting the BPM
+# Hvordan man sætter et BPM
 
-1. Set the BPM. We'll be using Karate Man (GBA) in this tutorial, which is 119BPM. You can check [this page](/docs-tips/music/bpm) if you want more information on how to find the BPM of the song you're using.
+1. Sæt BPMet. Vi ville bruge Karateka (GBA) i denne tutorial, som er 119BPM. Du kan tjekke [denne side](/docs-tips/music/bpm) hvis du ville have mere information om hvordan man finder sins sangs BPM.
 
 ![bpm](/img/docs/firstremix/bpm.png)
 
-If all previous steps were done correctly, we should have something like this.
+Hvis alle de sidste trin var gennemført korrekt, skulle vi have noget som det her.
 
 <ReactPlayer controls url='/vid/firstchart/music.mp4' />

@@ -2,41 +2,43 @@
 sidebar_position: 1
 ---
 
-# Finding the song offset
+# Hvordan man finder en sangs offset
 
-In most audio files, the song doesn't start immediately after the file begins. The song offset indicates the delay between the start of the audio stream and the start of the first beat. This section should help you figure out the offset.
+I de fleste lydfiler, så begynder sangen ikke pludseligt efter filen er blevet spillet. Sangens offset indikere forsinkelsen mellem begyndelsen af lydstrømmen og begyndelsen af det første beat. Denne sektion skulle hjælpe dig med at finde sangens offset.
 
-**_Finding the song offset is perhaps the most important part of remixing. This will determine if your song is on-beat. Make sure you get the song offset correctly before continuing._**
+**_At finde sangens offset er nok den mest vigtige del når man remixer. Det ville afgøre om din sang er on-beat eller ej. Vær sikker på at du har fundet sangens korrekte offset før du fortsætter._**
 
-## Method 1: Audio Editor
-For the purposes of this guide, we will be using Audacity.
+## Første Metode: Lyd Editor
+
+Til hensyn af denne guide, så bruger vi Audacity.
 
 1. Download Audacity.
-(For Windows/MacOS users, get it from [Audacity's webpage](https://www.audacityteam.org/download/), Linux users check instructions for your distro online.)
-2. Open your music file in Audacity
-3. Zoom into the start of the music file in the timeline of Audacity
-4. Set the cursor right at the start of the first beat (usually right after the silence at the start of the music file, sometimes a bit after like in Karate Man (GBA))
-5. Check the time at the bottom. Take the last 3 numbers, and that's your offset in milliseconds. 
+   (For Windows/MacOS brugere, få det fra [Audacitys webside](https://www.audacityteam.org/download/), Linux brugere tjek bruganvisningerne for din distro online.)
+2. Åben din musik fil i Audacity
+3. Zoom ind på starten af musik filen på audacitys tidslinje
+4. Put markøren lige på begyndelsen af det første beat (som regelt lige efter stilheden på begyndelsen af musik filen, nogle gange en lille smule efter ligesom i Karateka (GBA))
+5. Tjek tiden på bunden. Tag de sidste 3 cifre, og det er dit offset i millisekunder.
 
 ![audacity](/img/docs-tips/music/offset/audacity.png)
 
-6. Set the offset in Heaven Studio. Type those 3 numbers (without a decimal point) into the "Song Offset" box at the top of the Heaven Studio window.
-7. To make sure the offset you got is right, check the waveform. If the beats in the waveform match the timeline's beats, you are good to go.
+6. Put offsettet ind på Heaven Studio. Skriv de 3 cifre (uden komma) ind på "Sang Offset" boksen på toppen af Heaven Studios vindue.
+7. For at være sikker på at du fandt det rigtige offset, tjek waveformen. Hvis beatsene i waveformen matcher tidslinjens beats, så burde du have det rigtige offset.
 
-## Method 2: Guess & Check
-This method is usually less accurate. This method only works if you have already set the BPM.
-(If at any point your song becomes on-beat during this process, you can skip the rest of the steps.)
+## Anden metode: Gæt & Tjek
 
-1. Turn on the metronome tool in Heaven Studio by clicking the metronome icon. Press `Space` to play the remix and ensure it is enabled. (If it is hard to hear the metronome, set the song volume to 50% by pressing `2` on your keyboard and clicking the "Song Volume" box on the left. You can undo this change later.)
-2. Play your remix. If the metronome is early, increase the Song Offset by 100.
-3. Repeat step 2 until the metronome is slightly late. Decrease the Song Offset by 100.
-4. Play your remix. If the metronome is early, increase the Song Offset by 25.
-5. Repeat step 4 until the metronome is slightly late. Decrease the Song Offset by 25.
-6. Play your remix. If the metronome is early, increase the Song Offset by 5.
-7. Repeat step 6 until the metronome is slightly late. Decrease the Song Offset by 5.
-8. Play your remix. If the metronome is early, increase the Song Offset by 1.
-9. Repeat step 8 until the metronome is on-beat.
+Denne metode er som regel mindre præcist. Denne metode virker kun hvis du allerede har sat BPMet.
+(Hvis på hvad end tidspunkt at din sang bliver on-beat under denne proces, så kan du springe over resten af trinnene.)
 
-Note: Beats are usually the longest parts of a waveform. Check the image below for reference
+1. Slå metronom værktøjet til i Heaven Studio ved at trykke på metronom ikonet. Tryk `Space` for at spille remixen og vær sikker på det er slået til. (Hvis det er svært at høre metronomen, så put sangens volumen til 50% ved at trykke `2` på dit tastatur og ved at trykke på "Sang Volumen" boksen til venstre. Du kan fortryde denne forandring senere.)
+2. Spil din remix. Hvis metronomen er for tidlig, øg sangens offset med 100.
+3. Gentag trin 2 indtil metronomen er en lille smule for sent. Formindsk sangens offset med 100.
+4. Spil din remix. Hvis metronomen er for tidlig, øg sangens offset med 25.
+5. Gentag trin 4 indtil metronomen er lidt for sent. Formindsk sangens offset med 25.
+6. Spil din remix. Hvis metronomen er for tidlig, øg sangens offset med 5.
+7. Gentag trin 6 indtil metronomen er en lille smule for sent. Formindsk sangens offset med 5.
+8. Spil din remix. Hvis metronomen er for tidlig, øg sangens offset med 1.
+9. Gentag trin 8 indtil metronomen er on-beat.
+
+Bemærk: Beats er som regel den længste del af en waveform. Tjek billedet under som reference
 
 ![waveform](/img/docs-tips/music/offset/waveform.png)
