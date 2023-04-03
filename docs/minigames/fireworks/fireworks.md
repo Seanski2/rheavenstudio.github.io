@@ -19,22 +19,39 @@ Fireworks is a **Cue-Based** game.
 
 ### Properties
 
-|Cue|Variable|Options|Description|
-|---|---|---|---|
-|`Firework`|Where to spawn?|Left, Right, Middle|Determines the X position of the firework.|
-|`Firework`|Explosion Pattern|UniformBig, UniformDonut, UniformSwirl, UniformSmile, MixedCircular|Determines the firework's explosion's appearance.|
-|`Firework`|Applause|Toggle|When checked, plays an applause sound upon successful input.|
-|`Firework`|Vertical Offset|0-4|Determines the firework's vertical offset.|
-|`Firework`|Practice Count-In|Toggle|When checked, plays a count-in sound throughout the cue's duration.|
-|`Sparkler`|Where to spawn?|Left, Right, Middle|Determines the X position of the firework.|
-|`Sparkler`|Explosion Pattern|UniformBig, UniformDonut, UniformSwirl, UniformSmile, MixedCircular|Determines the firework's explosion's appearance.|
-|`Sparkler`|Applause|Toggle|When checked, plays an applause sound upon successful input.|
-|`Sparkler`|Vertical Offset|0-4|Determines the firework's vertical offset.|
-|`Sparkler`|Practice Count-In|Toggle|When checked, plays a count-in sound throughout the cue's duration.|
-|`Bomb`|Applause|Toggle|When checked, plays an applause sound upon successful input.|
-|`Bomb`|Practice Count-In|Toggle|When checked, plays a count-in sound throughout the cue's duration.|
-|`Count-In`|Count|CountOne, CountTwo, CountThree, CountHey|Determines the sound that will play.|
-|`Background Appearance`|Remix 5|Toggle|When checked, sets the background appearance to that of Remix 5 GBA.|
+#### Firework
+|Variable|Options|Description|
+|---|---|---|
+|`Where to spawn?`|Left, Right, Middle|Determines the X position of the firework.|
+|`Explosion Pattern`|UniformBig, UniformDonut, UniformSwirl, UniformSmile, MixedCircular|Determines the firework's explosion's appearance.|
+|`Applause`|Toggle|When checked, plays an applause sound upon successful input.|
+|`Vertical Offset`|0-4|Determines the firework's vertical offset.|
+|`Practice Count-In`|Toggle|When checked, plays a count-in sound throughout the cue's duration.|
+
+#### Sparkler
+|Variable|Options|Description|
+|---|---|---|
+|`Where to spawn?`|Left, Right, Middle|Determines the X position of the firework.|
+|`Explosion Pattern`|UniformBig, UniformDonut, UniformSwirl, UniformSmile, MixedCircular|Determines the firework's explosion's appearance.|
+|`Applause`|Toggle|When checked, plays an applause sound upon successful input.|
+|`Vertical Offset`|0-4|Determines the firework's vertical offset.|
+|`Practice Count-In`|Toggle|When checked, plays a count-in sound throughout the cue's duration.|
+
+#### Bomb
+|Variable|Options|Description|
+|---|---|---|
+|`Applause`|Toggle|When checked, plays an applause sound upon successful input.|
+|`Practice Count-In`|Toggle|When checked, plays a count-in sound throughout the cue's duration.|
+
+#### Count-In
+|Variable|Options|Description|
+|---|---|---|
+|`Count`|CountOne, CountTwo, CountThree, CountHey|Determines the sound that will play.|
+
+#### Background Appearance
+|Variable|Options|Description|
+|---|---|---|
+|`Remix 5`|Toggle|When checked, sets the background appearance to that of Remix 5 GBA.|
 
 
 ### Known Bugs and Issues

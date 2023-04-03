@@ -17,9 +17,10 @@ Mr. Upbeat is a **Keep-the-Beat** game.
 
 ### Properties
 
-|Cue|Variable|Options|Description|
-|---|---|---|---|
-|`Ding!`|Applause|Toggle|When checked, plays an applause sound alongside the dinging noise.|
+#### Ding!
+|Variable|Options|Description|
+|---|---|---|
+|`Applause`|Toggle|When checked, plays an applause sound alongside the dinging noise.|
 
 ### Known Bugs and Issues
 - Mr. Upbeat lacks a miss animation for getting hit while the metronome moves from right to left; it reuses the animation for from left to right currently.
