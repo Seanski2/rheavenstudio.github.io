@@ -20,18 +20,39 @@ DJ School is a **Cue-Based** game.
 
 ### Properties
 
-|Cue|Variable|Options|Description|
-|---|---|---|---|
-|`Bop`|Bop|Toggle|When checked, makes DJ Yellow and Student bop for the duration of the cue.|
-|`Bop`|Bop (Auto)|Toggle|When checked, makes DJ Yellow and Student bop every subsequent beat.|
-|`And Stop!`|Ooh|Toggle|When checked, DJ Yellow says the "ooh" part of his cue.|
-|`Break, C'mon!`|Voice|Standard, Cool, Hyped|Changes the tone DJ Yellow says his cue in.|
-|`Break, C'mon!`|Ooh|Toggle|When checked, DJ Yellow says the "ooh" part of his cue.|
-|`Scratch-o`|Voice|Standard, Cool, Hyped|Changes the tone DJ Yellow says his cue in.|
-|`Scratch-o`|Cheering|Toggle|When checked, enables a cheering sound effect after a successful input.|
-|`Scratch-o`|Fast Hey|Toggle|When checked, Student will spin the record half a beat earlier.|
-|`DJ Yellow Banter`|Voice Lines|CheckItOut, LetsGo, OhYeah, OhYeahAlt, Yay|Plays the selected DJ Yellow voiceline.
-|`Scratchy Music`|Radio FX|Toggle|When checked, makes stopping the record apply a radio filter to the song. Stops when the record is released or spun.|0.5|
+#### Bop
+|Variable|Options|Description|
+|---|---|---|
+|`Bop`|Toggle|When checked, makes DJ Yellow and Student bop for the duration of the cue.|
+|`Bop (Auto)`|Toggle|When checked, makes DJ Yellow and Student bop every subsequent beat.|
+
+#### And Stop!
+|Variable|Options|Description|
+|---|---|---|
+|`Ooh`|Toggle|When checked, DJ Yellow says the "ooh" part of his cue.|
+
+#### Break, C'mon!
+|Variable|Options|Description|
+|---|---|---|
+|`Voice`|Standard, Cool, Hyped|Changes the tone DJ Yellow says his cue in.|
+|`Ooh`|Toggle|When checked, DJ Yellow says the "ooh" part of his cue.|
+
+#### Scratch-o!
+|Variable|Options|Description|
+|---|---|---|
+|`Voice`|Standard, Cool, Hyped|Changes the tone DJ Yellow says his cue in.|
+|`Cheering`|Toggle|When checked, enables a cheering sound effect after a successful input.|
+|`Fast Hey`|Toggle|When checked, Student will spin the record half a beat earlier.|
+
+#### DJ Yellow Banter
+|Variable|Options|Description|
+|---|---|---|
+|`Voice Lines`|CheckItOut, LetsGo, OhYeah, OhYeahAlt, Yay|Plays the selected DJ Yellow voiceline.
+
+#### Scratchy Music
+|Variable|Options|Description|
+|---|---|---|
+|`Radio FX`|Toggle|When checked, makes stopping the record apply a radio filter to the song. Stops when the record is released or spun.|0.5|
 
 ### Known Bugs and Issues
 - `Bop` can behave strangely at times; DJ Yellow's directional bops may repeat once or several times depending on how bop cues are used.

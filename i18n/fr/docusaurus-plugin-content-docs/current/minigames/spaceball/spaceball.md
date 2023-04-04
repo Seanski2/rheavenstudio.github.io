@@ -20,13 +20,26 @@ Spaceball is a **Cue-Based** game.
 
 ### Properties
 
-|Cue|Variable|Options|Description|
-|---|---|---|---|
-|`Pitch Ball`|Type|Baseball, Onigiri, Alien, Tacobell|Sets the object to be dispensed.|
-|`Pitch High Ball`|Type|Baseball, Onigiri, Alien, Tacobell|Sets the object to be dispensed.|
-|`Change Batter Costume`|Type|Standard, Bunny, SphereHead|Sets the batter's Change Batter Costume.|
-|`Zoom Camera`|Zoom|1-320|Changes the camera's zoom, with 10 <br></br>being the default.|
-|`Zoom Camera`|Ease|Linear, Instant, Spring,<br></br> *variations of* Quad, Cubic, Quart,<br></br> Quint, Sine, Expo, Circ, Bounce,<br></br> Back, Elastic|Changes the camera's zoom velocity.|
+#### Pitch Ball
+|Variable|Options|Description|
+|---|---|---|
+|`Type`|Baseball, Onigiri, Alien, Tacobell|Sets the object to be dispensed.|
+
+#### Pitch High Ball
+|Variable|Options|Description|
+|---|---|---|
+|`Type`|Baseball, Onigiri, Alien, Tacobell|Sets the object to be dispensed.|
+
+#### Change Batter Costume
+|Variable|Options|Description|
+|---|---|---|
+|`Type`|Standard, Bunny, SphereHead|Sets the batter's Change Batter Costume.|
+
+#### Zoom Camera
+|Variable|Options|Description|
+|---|---|---|
+|`Zoom`|1-320|Changes the camera's zoom, with 10 <br></br>being the default.|
+|`Ease`|Linear, Instant, Spring,<br></br> *variations of* Quad, Cubic, Quart,<br></br> Quint, Sine, Expo, Circ, Bounce,<br></br> Back, Elastic|Changes the camera's zoom velocity.|
 
 ### Known Bugs and Issues
 - After switching costumes for the first time, a second `Change Batter Costume` to the standard appearance will display Air Batter's normal coloration with the last used head.

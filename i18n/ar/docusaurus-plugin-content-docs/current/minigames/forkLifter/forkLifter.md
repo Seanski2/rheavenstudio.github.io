@@ -18,9 +18,10 @@ Fork Lifter is a **Cue-Based** game.
 
 ### Properties
 
-|Cue|Variable|Options|Description|
+#### Flick Food
+|Variable|Options|Description|
 |---|---|---|---|
-|`Flick Food`|Object|Pea, TopBun, Burger, BottomBun|Chooses the item to be flicked.|
+|`Object`|Pea, TopBun, Burger, BottomBun|Chooses the item to be flicked.|
 
 ### Known Bugs and Issues
 - The burger objects do not display correctly in the zoom-in bubble.
